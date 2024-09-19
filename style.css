@@ -1,0 +1,69 @@
+.headerTitle{
+    color:white;
+    text-align:center; 
+    background-color: rgb(63, 81, 141);
+    /* position:fixed;
+    top:0;
+    left:0;
+    width:100%; 
+    background-image: url(images/blueback.jpg); 
+    background-size: cover;
+    border: 7px solid #dedede; 
+    outline:5px solid red;*/
+    line-height: 3;
+    height: 100px;
+}
+.headerStyle{
+    background-color: rgb(63, 81, 141);
+}
+.navStyle{
+    background-color: rgb(63, 81, 141);
+}
+.card{
+  margin: 1.5rem;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  background-color: rgb(63, 81, 141);
+  padding:0.7rem;
+  line-height: 4;
+}
+.card:hover{
+    color:black;
+    border-color: black;
+}
+.officerCard{
+    margin-left: 6rem;
+    width:500px;
+    border:5px solid black;
+    padding:10px;
+    text-align: center;
+}
+.column{
+  display: flex;
+  align-items: left;
+  justify-content: left;
+  flex-wrap: wrap;
+  max-width: 2000px;
+  row-gap: 2rem;
+}
+.meetinginfo{
+    margin: 3rem; 
+    width:250px;
+    height:100px;
+    border:5px solid black;
+    padding:30px;
+    text-align: center;
+}
+.meetingbox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+*{
+    background-color: rgb(250, 245, 245);
+    box-sizing: border-box;
+}
