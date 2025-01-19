@@ -18,7 +18,7 @@ html{
     background-size: cover;
     border: 7px solid #dedede; 
     outline:5px solid red;*/
-    line-height: 3;
+    line-height: 2;
     height: 100px;
 }
 .headerStyle{
@@ -39,6 +39,7 @@ html{
   background-color: rgb(63, 81, 141);
   padding:0.7rem;
   line-height: 4;
+  position: static;
 }
 .card:hover{
     color:black;
