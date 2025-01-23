@@ -1,0 +1,16 @@
+@font-face {
+    font-family: myFont;
+    src: url(akira.OTF);
+}
+
+table {
+    width: 100%;
+}
+
+tr, td {
+    border: 1px solid black;
+}
+
+body {
+    background-color: lightblue;
+}
