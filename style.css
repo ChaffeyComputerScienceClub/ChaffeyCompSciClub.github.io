@@ -6,10 +6,14 @@ html{
     font-family: myFont;
 }
 
+:root{
+    --purple:#b425b4;
+    --blue:blue;
+}
 .headerTitle{
     color:white;
     text-align:center; 
-    background-color: rgb(63, 81, 141);
+    background-color: var(--blue);
     /* position:fixed;
     top:0;
     left:0;
@@ -22,13 +26,13 @@ html{
     height: 100px;
 }
 .headerStyle{
-    background-color: rgb(63, 81, 141);
+    background-color: var(--blue);
     margin-block-start: 0%;
     margin-block-end: 0%;
 }
 .navStyle{
     display: flex;
-    background-color: rgb(63, 81, 141);
+    background-color: var(--blue);
     justify-content: space-evenly;
 }
 .card{
@@ -38,7 +42,7 @@ html{
   text-decoration: none;
   border: 2px solid #ffffff;
   border-radius: 5px;
-  background-color: rgb(63, 81, 141);
+  background-color: var(--blue);
   padding:0.7rem;
   line-height: 4;
   position: static;
@@ -66,7 +70,8 @@ html{
     margin: 3rem; 
     width:250px;
     height:125px;
-    border:5px solid white;
+    background-color:var(--purple);
+    border-radius: 10px;
     padding:30px;
     text-align: center;
 }
